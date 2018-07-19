@@ -1,0 +1,135 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid ;
+}
+a{color: #6E6E6E}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+}
+body {
+    font-size: 17px;
+    color: #969696;
+}
+a:hover { text-decoration: none }
+
+.blog-box-bg-1{background-image: url(../img/Untitled-1.jpg)}
+.blog-box-bg-2{background-image: url(../img/Untitled-2.jpg)}
+.blog-box-bg-3{background-image: url(../img/Untitled-3.jpg)}
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.section-title h2 {
+  color: #232323;
+  position: relative;
+  font-size: 34px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+h2 {
+}
+.section-title h2:before {
+  position: absolute;
+  height: 2px;
+  width: 60px;
+  content: "";
+  background: #FF8F17;
+  left: 50%;
+  bottom: 0;
+  margin-left: -30px;
+}
+.section-title h2:after {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  content: "";
+  background: #232323;
+  width: 20px;
+  margin-left: -10px;
+}
+.blog-box-bg {
+  height: 180px;
+  background-color: #ddd;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #FF8F17;
+}
+.blog-box-bg {
+  border-bottom: 0px solid;
+}
+.blog-box-content {
+  padding: 20px;
+  border: 1px solid #E7EBF3;
+  transition: 0.4s;
+}
+p.blog-box-meta {
+  font-size: 12px;
+}
+.blog-box-meta i.fa {
+  color: #FF8F17;
+    padding-right: 4px;
+    font-size: 13px;
+}
+.blog-box-content h3 {
+  font-size: 20px;
+  color: #252525;
+}
+.read-more-btn {
+  background: #FE8F18;
+  padding: 9px 20px;
+  padding: ;
+  margin-top: ;
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+.blog-box-meta a {
+  color: #969696;
+    margin-right: 5px;
+}
+.read-more-btn:hover {
+  background: #222222;
+  color: #fff;
+}
+.blog-box-bg:hover {
+  border: 1px solid #FF8F17;
+}
+.blog-box-bg:hover .blog-box-content {
+  border: 1px solid #blog-box-content;
+}
+.single-blog-bx:hover .blog-box-content {
+  border: 1px solid #FF8F17;
+}
+.single-blog-bx {
+  transition: 0.4s;
+}
